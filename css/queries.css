@@ -1,0 +1,202 @@
+@media (max-width: 78.75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .cta-form .btn {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 69em) {
+  html {
+    font-size: 50%;
+  }
+
+  .nav-link {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 62em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .section-testimonial {
+    background-image: url("../images/bg-curve-mobile.svg");
+}
+  .heading-primary {
+    font-size: 3.8rem;
+  }
+
+  .heading-desc {
+    font-size: 2rem;
+    padding-right: 6.4rem;
+  }
+
+  .get-started-form {
+    flex-direction: column;
+  }
+
+  #email {
+    width: 70%;
+  }
+  .get-started-form .btn {
+    max-width: 50%;
+    padding: 2rem 4.8rem;
+  }
+  .testimonial-desc {
+    font-size: 2rem;
+    color: hsl(243, 87%, 12%);
+  }
+
+  .testimonial-card-desc {
+    font-size: 1.6rem;
+  }
+  .author-img {
+    width: 15%;
+  }
+  .author-name {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 53.5em) {
+  .container {
+    margin: 0 5%;
+  }
+}
+
+@media (max-width: 49em) {
+  .nav-link {
+    font-size: 2.4rem;
+    gap: 0.8rem;
+  }
+
+  .heading-primary, .heading-secondary, .heading-tertiary {
+    font-size: 6.2rem;
+  }
+  .heading-desc, .testimonial-desc, .cta-desc {
+    font-size: 3rem;
+  }
+  .testimonial-desc {
+    text-align: left;
+  }
+  .hero-box, .testimonial-box {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-img-box, .testimonial-img-box {
+    grid-row: 1;
+  }
+  
+  .testimonial-text-box {
+    justify-content: center;
+    align-items: center;
+    gap: 4.6rem;
+  }
+
+  .testimonial-link {
+   font-size: 2.4rem; 
+  }
+
+  .testimonial-card {
+    padding: 6.4rem;
+    text-align: left;
+    max-width: 80%;
+  }
+  .testimonial-card-desc {
+    text-align: left;
+    font-size: 3.2rem;
+  }
+
+  .illustrations {
+    max-width: 80%;
+    margin-bottom: 4.8rem;
+  }
+  .hero-text-box {
+    gap: 4rem;
+  }
+
+  .author-img {
+    width: 20%;
+  }
+
+  .author-name {
+    font-size: 2rem;
+  }
+
+  #email {
+    width: 100%;
+    padding: 2.4rem 9.6rem;
+  }
+
+  .get-started-form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .get-started-form .btn {
+    width: 100%;
+    padding: 2.4rem 9.6rem;
+  }
+
+  .cta-box {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .cta-form {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .cta-desc {
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .cta-button {
+    width: 100%;
+  }
+
+  .cta-form div {
+    padding: 0 5%;
+  }
+  .cta-form #email {
+    width: 100%;
+  }
+  .cta-form .btn {
+    padding: 2.4rem 4.8rem;
+    width: 100%
+  }
+
+  .footer-links {
+    grid-template-columns: 1fr;
+    row-gap: 8rem;
+  }
+
+  .contact-details p {
+    font-size: 3.6rem;
+}
+
+  .socials {
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    font-size: 3.6rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .footer-logo {
+    margin-bottom: 4.8rem;
+}
+
+.copy {
+    font-size: 2.4rem;
+}
+}

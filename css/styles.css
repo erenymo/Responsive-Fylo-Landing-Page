@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+/*
+font-family: 'Open Sans', sans-serif; 400
+font-family: 'Raleway', sans-serif; 400, 700
+*/
+
+
+
+/*
+- font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+    font-size: 62.5%;  /* 1 rem = 10px */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--4-cols {
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.heading-primary, .heading-secondary {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3.6rem;
+    color: hsl(243, 87%, 12%);
+}
+
+
+
+/**********/
+/* HEADER */
+/**********/
+
+.header {
+    margin-top: 6.4rem;
+}
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* navbar */
+.nav-link {
+    display: flex;
+    list-style: none;
+    gap: 4.8rem;
+    font-size: 1.8rem;
+}
+
+.nav-link a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+/**********/
+/* HERO */
+/**********/
+
+.section-hero {
+    padding: 9.6rem 0;
+}
+
+.illustrations {
+    width: 100%;
+}
+
+.hero-text-box {
+    color: hsl(243, 87%, 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.4rem;
+    padding-right: 1.6rem;
+}
+
+.heading-desc {
+    font-size: 1.6rem;
+    padding-right: 6.4rem;
+}
+
+.get-started-form {
+    display: flex;
+    gap: 2.4rem;
+}
+
+#email {
+    padding: 1.2rem 8rem 1.2rem 1.2rem;
+}
+
+.get-started-form .btn {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 1rem 6rem;
+    background-color: hsl(224, 93%, 58%);
+    transition: all 0.3s ease;
+    border: none;
+    color: #fff;
+    border-radius: 0.4rem;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.15);
+}
+
+.get-started-form .btn:hover,.cta-form .btn:hover {
+    cursor: pointer;
+    background-color: hsla(224, 93%, 58%, 0.7);
+    
+}
+
+/***************/
+/* TESTIMONIAL */
+/***************/
+
+.section-testimonial {
+    background-image: url("../images/bg-curve-desktop.svg");
+    padding: 9.6rem 0 0 0;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+.color-background {
+    background-color: hsl(240, 75%, 98%);
+    padding: 6.4rem 0 8rem 0;
+}
+
+.testimonial-text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.testimonial-desc {
+    font-size: 1.6rem;
+    padding-right: 6.4rem;
+    color: hsl(243, 87%, 12%);
+}
+
+.testimonial-link {
+    color: hsl(170, 45%, 43%);
+    font-size: 1.6rem;
+    text-decoration: none;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    padding-bottom: 0.3rem;
+}
+
+.how-it-works {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 2.4rem;
+}
+
+.testimonial-card {
+    background-color: white;
+    padding: 2.4rem;
+    max-width: 60%;
+    border-radius: 0.8rem;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.07);
+}
+
+.testimonial-card-desc {
+    margin: 1.2rem 0;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    
+}
+
+.author {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.author-img {
+    width: 10%;
+    border-radius: 99999px;
+}
+
+/********/
+/* CTA */
+/*******/
+
+.section-cta {
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    padding: 9.6rem 0;
+}
+
+.heading-tertiary {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+}
+
+.cta-desc {
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: hsl(240, 75%, 98%);
+}
+
+.cta-box {
+    column-gap: 12rem;
+}
+.cta-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.cta-form .btn {
+    max-width: 40%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 1.5rem 4rem;
+    background-color: hsl(224, 93%, 58%);
+    transition: all 0.3s ease;
+    border: none;
+    color: #fff;
+    border-radius: 0.4rem;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.05);
+}
+
+.cta-form #email {
+    padding: 1.5rem;
+    width: 80%;
+    border: none;
+    box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.05);
+    border-radius: 0.4rem;
+}
+
+/***********/
+/* FOOTER */
+/**********/
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 9.6rem 0 6.4rem 0;
+}
+
+.footer-logo {
+    margin-bottom: 2.4rem;
+}
+
+.footer-links {
+    margin-bottom: 3.2rem;
+}
+
+.footer-nav-link {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.footer-nav-link a {
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.footer-nav-link a:hover {
+    cursor: pointer;
+    color: hsl(238, 22%, 44%);
+}
+
+.contact-details {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+.contact-details p {
+    font-size: 1.4rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.socials {
+    display: flex;
+    gap: 2.4rem;
+    align-items: start;
+}
+
+.socials i{
+    transition: all 0.3s ease;
+}
+
+.socials i:hover {
+    cursor: pointer;
+    color: hsl(238, 22%, 44%);
+}
+
+.copy {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.copy a {
+    text-decoration: none;
+    color: white;
+}
+
+.github-link-p {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.github-link-p:hover {
+    transform: translateY(-2px);
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Fylo landing page with two column layout</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/274096fc0d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-box container">
+        <a href=""> <img src="images/logo.svg" alt="Fylo logo" /></a>
+
+        <nav class="header-nav">
+          <ul class="nav-link">
+            <li><a href="">Features</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Sign In</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="section-hero">
+      <div class="hero-box container grid grid--2-cols">
+        <div class="hero-text-box">
+          <h1 class="heading-primary">
+            All your files in one secure location, accessible anywhere.
+          </h1>
+
+          <p class="heading-desc">
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+
+          <form class="get-started-form" action="#">
+            <div>
+              <input
+                id="email"
+                type="email"
+                required
+                placeholder="Enter your email..."
+              />
+            </div>
+
+            <button class="btn">Get Started</button>
+          </form>
+        </div>
+
+        <div class="hero-img-box">
+          <img
+            class="illustrations"
+            src="images/illustration-1.svg"
+            alt="fylo illustration-1"
+          />
+        </div>
+      </div>
+    </section>
+
+    <div class="background"></div>
+    <!--TESTIMONIAL-->
+    <section class="section-testimonial">
+      <div class="color-background">
+        <div class="testimonial-box container grid grid--2-cols">
+          <div class="testimonial-text-box">
+            <h2 class="heading-secondary">Stay productive, wherever you are</h2>
+            <p class="testimonial-desc">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+            <p class="testimonial-desc">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required!
+            </p>
+            <div class="how-it-works">
+              <a class="testimonial-link" href=""
+                >See how Fylo works
+                <img src="images/icon-arrow.svg" alt="arrow icon"
+              /></a>
+            </div>
+            <div class="testimonial-card">
+              <img src="images/icon-quotes.svg" alt="quotes icon" />
+              <p class="testimonial-card-desc">
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="author">
+                <img
+                  class="author-img"
+                  src="images/avatar-testimonial.jpg"
+                  alt="Kyle Burton Profile Picture"
+                />
+                <div class="author-name">
+                  <h3>Kyle Burton</h3>
+                  <p>Founder & CEO, Huddle</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-img-box">
+            <img
+              class="illustrations"
+              src="images/illustration-2.svg"
+              alt="fylo illustration-2"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cta -->
+    <section class="section-cta">
+      <div class="cta-box container grid grid--2-cols">
+        <div class="cta-text-box">
+          <h3 class="heading-tertiary">Get early access today</h3>
+          <p class="cta-desc">
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+        </div>
+
+        <form class="cta-form" action="">
+          <div>
+            <input
+              id="email"
+              type="email"
+              placeholder="email@example.com"
+              required
+            />
+          </div>
+          <div class="cta-button">
+          <button class="btn">Get Started For Free</button>
+        </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-logo">
+          <a href="">
+            <img src="images/footer-logo.svg" alt="Fylo logo" />
+          </a>
+        </div>
+        <div class="footer-links grid grid--4-cols">
+          <div class="contact">
+            <div class="contact-details">
+              <img src="images/icon-phone.svg" alt="phone icon" />
+              <p>Phone: +1-543-123-4567</p>
+            </div>
+            <div class="contact-details">
+              <img src="images/icon-email.svg" alt="email icon" />
+              <p>example@fylo.com</p>
+            </div>
+          </div>
+          <nav class="nav-link">
+            <ul class="footer-nav-link">
+              <li><a href="">About Us</a></li>
+              <li><a href="">Jobs</a></li>
+              <li><a href="">Press</a></li>
+              <li><a href="">Blog</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-link">
+            <ul class="footer-nav-link">
+              <li><a href="">Contact Us</a></li>
+              <li><a href="">Terms</a></li>
+              <li><a href="">Privacy</a></li>
+            </ul>
+          </nav>
+
+          <div class="socials">
+            <i class="fa-brands fa-facebook-f fa-xl"></i>
+            <i class="fa-brands fa-twitter fa-xl"></i>
+            <i class="fa-brands fa-instagram fa-xl"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="copy">
+        <p>
+          Made with ♥ by
+          <a
+            class="github-link"
+            href="https://github.com/erenymo"
+            target="_blank"
+            ><p class="github-link-p">
+              <i class="fa-brands fa-github"></i> Erenymo
+            </p></a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
